@@ -1,0 +1,93 @@
+body{
+	background-color:black;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.wrapper{
+	background-color: white;
+	width:90%;
+	border-top: 2px solid #eb743a;
+	margin: 0 auto;
+	overflow:hidden;
+	padding-bottom: 30px;
+}
+
+.main{
+	width:90%;
+	margin: 0 auto;
+	border-top: 10px solid #005d9e;
+}
+
+.content {
+	width: 100%;
+	padding: 10px 0 30px;
+	overflow: hidden;
+}
+
+.mainContent{
+	width: 60%;
+	float:left;
+	clear: both;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a.showMe {
+	color: #5884a7;
+	float:right;
+	clear: both;
+}
+
+a.getHelp {
+	color: #5a5a5a;
+	float:none;
+	clear: both;
+}
+
+input {
+	display: block;
+	margin: 5px 0 10px;
+}
+
+button {
+	margin-bottom: 15px;
+	background-color: #00823a;
+	padding: 5px 10px;
+	color: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #0a311c;
+}
+
+footer {
+	background-color: #dde1e4;
+	clear: both;
+	padding: 40px 0;
+	font-size: 14px;
+	border-top: 1px solid #c2c2c2;
+}
+
+
+@media only screen and (max-width: 800px) and (min-width:401px){
+	body {
+	  text-align: center;
+	}
+		
+
+@media only screen and (max-width:400px) and (min-width:0px){
+	body {
+		min-width: 320px;
+		text-align: center;
+	}
+
+}
